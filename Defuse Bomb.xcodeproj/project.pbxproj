@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1103A9641C662B3200AE2D9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103A9631C662B3200AE2D9B /* AppDelegate.swift */; };
+		1103A9661C662B3200AE2D9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103A9651C662B3200AE2D9B /* ViewController.swift */; };
+		1103A9691C662B3200AE2D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1103A9671C662B3200AE2D9B /* Main.storyboard */; };
+		1103A96B1C662B3200AE2D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1103A96A1C662B3200AE2D9B /* Assets.xcassets */; };
+		1103A96E1C662B3200AE2D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1103A96C1C662B3200AE2D9B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1103A9601C662B3100AE2D9B /* Defuse Bomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Defuse Bomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1103A9631C662B3200AE2D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1103A9651C662B3200AE2D9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1103A9681C662B3200AE2D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1103A96A1C662B3200AE2D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1103A96D1C662B3200AE2D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1103A96F1C662B3200AE2D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1103A95D1C662B3100AE2D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1103A9571C662B3100AE2D9B = {
+			isa = PBXGroup;
+			children = (
+				1103A9621C662B3200AE2D9B /* Defuse Bomb */,
+				1103A9611C662B3100AE2D9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1103A9611C662B3100AE2D9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1103A9601C662B3100AE2D9B /* Defuse Bomb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1103A9621C662B3200AE2D9B /* Defuse Bomb */ = {
+			isa = PBXGroup;
+			children = (
+				1103A9631C662B3200AE2D9B /* AppDelegate.swift */,
+				1103A9651C662B3200AE2D9B /* ViewController.swift */,
+				1103A9671C662B3200AE2D9B /* Main.storyboard */,
+				1103A96A1C662B3200AE2D9B /* Assets.xcassets */,
+				1103A96C1C662B3200AE2D9B /* LaunchScreen.storyboard */,
+				1103A96F1C662B3200AE2D9B /* Info.plist */,
+			);
+			path = "Defuse Bomb";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1103A95F1C662B3100AE2D9B /* Defuse Bomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1103A9721C662B3200AE2D9B /* Build configuration list for PBXNativeTarget "Defuse Bomb" */;
+			buildPhases = (
+				1103A95C1C662B3100AE2D9B /* Sources */,
+				1103A95D1C662B3100AE2D9B /* Frameworks */,
+				1103A95E1C662B3100AE2D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Defuse Bomb";
+			productName = "Defuse Bomb";
+			productReference = 1103A9601C662B3100AE2D9B /* Defuse Bomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1103A9581C662B3100AE2D9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vyacheslav Horbach";
+				TargetAttributes = {
+					1103A95F1C662B3100AE2D9B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HJKK55TVH2;
+					};
+				};
+			};
+			buildConfigurationList = 1103A95B1C662B3100AE2D9B /* Build configuration list for PBXProject "Defuse Bomb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1103A9571C662B3100AE2D9B;
+			productRefGroup = 1103A9611C662B3100AE2D9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1103A95F1C662B3100AE2D9B /* Defuse Bomb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1103A95E1C662B3100AE2D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1103A96E1C662B3200AE2D9B /* LaunchScreen.storyboard in Resources */,
+				1103A96B1C662B3200AE2D9B /* Assets.xcassets in Resources */,
+				1103A9691C662B3200AE2D9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1103A95C1C662B3100AE2D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1103A9661C662B3200AE2D9B /* ViewController.swift in Sources */,
+				1103A9641C662B3200AE2D9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1103A9671C662B3200AE2D9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1103A9681C662B3200AE2D9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1103A96C1C662B3200AE2D9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1103A96D1C662B3200AE2D9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1103A9701C662B3200AE2D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1103A9711C662B3200AE2D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1103A9731C662B3200AE2D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Defuse Bomb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VyacheslavHorbach.Defuse-Bomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1103A9741C662B3200AE2D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Defuse Bomb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VyacheslavHorbach.Defuse-Bomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1103A95B1C662B3100AE2D9B /* Build configuration list for PBXProject "Defuse Bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1103A9701C662B3200AE2D9B /* Debug */,
+				1103A9711C662B3200AE2D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1103A9721C662B3200AE2D9B /* Build configuration list for PBXNativeTarget "Defuse Bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1103A9731C662B3200AE2D9B /* Debug */,
+				1103A9741C662B3200AE2D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1103A9581C662B3100AE2D9B /* Project object */;
+}
